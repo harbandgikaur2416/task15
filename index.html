@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      html {
+        font-family: sans-serif;
+      }
+
+      table {
+        border-collapse: collapse;
+        border: 2px solid rgb(200, 200, 200);
+        letter-spacing: 1px;
+        font-size: 0.8rem;
+      }
+
+      td,
+      th {
+        border: 1px solid rgb(190, 190, 190);
+        padding: 10px 20px;
+      }
+
+      th {
+        background-color: rgb(235, 235, 235);
+      }
+
+      td {
+        text-align: center;
+      }
+
+      tr:nth-child(even) td {
+        background-color: rgb(250, 250, 250);
+      }
+
+      tr:nth-child(odd) td {
+        background-color: rgb(245, 245, 245);
+      }
+
+      caption {
+        padding: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Planet data</h1>
+    <table>
+      <caption>
+        Data about the planets of our solar system 
+      </caption>
+
+      <thead>
+        <tr>
+          <td colspan="2">&nbsp;</td>
+          <th scope="col">Name</th>
+          <th scope="col">Mass (10<sup>24</sup>kg)</th>
+          <th scope="col">Diameter (km)</th>
+          <th scope="col">Density (kg/m<sup>3</sup>)</th>
+          <th scope="col">Gravity (m/s<sup>2</sup>)</th>
+          <th scope="col">Length of day (hours)</th>
+          <th scope="col">Distance from Sun (10<sup>6</sup>km)</th>
+          <th scope="col">Mean temperature (°C)</th>
+          <th scope="col">Number of moons</th>
+          <th scope="col">Notes</th>
+        </tr>
+        </thead>
+        <tbody>
+          <tr>
+      <th colspan="2" rowspan="4">terrestrial planets</td>
+        <th scope="col">mercury</th>
+      <td scope="col">0.330</td>
+      <td scope="col">4,879</td>
+      <td scope="col">5427</td>
+      <td scope="col">3.7</td>
+      <td scope="col">4222.6</td>
+      <td scope="col">57.9</td>
+      <td scope="col">167</td>
+      <td scope="col">0</td>
+      <td scope="col">closest to the sun</td>
+
+     </tr>
+     
+           
+            <th scope="col"> Venus</th>
+            <td scope="col">4.87</td>
+            <td scope="col">12,104</td>
+            <td scope="col">5243</td>
+            <td scope="col">8.9</td>
+            <td scope="col">2802.2</td>
+            <td scope="col">108.2</td>
+            <td scope="col">464</td>
+            <td scope="col">0</td>
+            <td scope="col"></td>
+
+          </tr>
+          
+           
+
+    <tr>
+      <th scope="col">Earth</th>
+      <td scope="col">5.97</td>
+      <td scope="col">12,756</td>
+      <td scope="col">5514</td>
+      <td scope="col">9.8</td>
+      <td scope="col">24.0</td>
+      <td scope="col">149.6</td>
+      <td scope="col">15</td>
+      <td scope="col">1</td>
+      <td scope="col">our world</td>
+    </tr>
+  <tr>
+          
+            <th scope="col">Mars</th>
+            <td scope="col">0.642</td>
+            <td scope="col">6,792</td>
+            <td scope="col">3933</td>
+            <td scope="col">3.7</td>
+            <td scope="col">24.7</td>
+            <td scope="col">227.9</td>
+            <td scope="col">-65</td>
+            <td scope="col">2</td>
+            <td scope="col">The red planet</td>
+          </tr>
+          <tr>
+            
+           <th rowspan="4">jovian</th>
+           <th rowspan="2">Gas gaints</th>
+            <th scope="col"> jupitar</th>
+            <td scope="col">1898</td>
+            <td scope="col">142,984</td>
+            <td scope="col">1326</td>
+            <td scope="col">23.1</td>
+            <td scope="col">9.9</td>
+            <td scope="col">778.6</td>
+            <td scope="col">-110</td>
+            <td scope="col">67</td>
+            <td scope="col">The largest planet</td>
+
+          
+          </tr>
+          <tr>
+           
+            <th scope="col"> satrun</th>
+            <td scope="col">568</td>
+            <td scope="col">120,536</td>
+            <td scope="col">687</td>
+            <td scope="col">9.0</td>
+            <td scope="col">10.7</td>
+            <td scope="col">1433.5</td>
+            <td scope="col">-140</td>
+            <td scope="col">62</td>
+            <td scope="col"></td>
+
+          </tr>
+          <tr>
+           <th rowspan="2">Ice gaints</th>
+            <th scope="col"> uranus</th>
+            <td scope="col">86.8</td>
+            <td scope="col">51,118</td>
+            <td scope="col">1271</td>
+            <td scope="col">8.7</td>
+            <td scope="col">17.2</td>
+            <td scope="col">2872.5</td>
+            <td scope="col">-195</td>
+            <td scope="col">27</td>
+            <td scope="col"></td>
+
+
+          </tr>
+          <tr>
+           
+            <th scope="col"> Neptune</th>
+            <td scope="col">102</td>
+            <td scope="col">49,528</td>
+            <td scope="col">1638</td>
+            <td scope="col">11.0</td>
+            <td scope="col">16.1</td>
+            <td scope="col">4495.1</td>
+            <td scope="col">-200</td>
+            <td scope="col">14</td>
+            <td scope="col"></td>
+
+          </tr>
+        </tbody>
+        </tfoot>
+        
+          <tr>
+           <th colspan="2" rowspan="2"  >Dwarf planets</th>
+            <th scope="col" rowspan="2"> Pluto</th>
+            <td scope="col" >0.0146</td>
+            <td scope="col" >2,370</td>
+            <td scope="col">2095</td>
+            <td  scope="col"  >0.7</td>
+            <td scope="col" >153.3</td>
+            <td scope="col"  >5906.4</td>
+            <td scope="col"  >-225</td>
+            <td scope="col"   >5</td>
+            <td  scope="col" >Declassifies as a planet in 2006 but this <a href="remains controvertial.html">remains controvertial</a></td>
+          </tr>  
+          <tr></tr>
+          </tfoot>
+   
+        
+      
+    
+    </table>
+  </body>
+</html>
